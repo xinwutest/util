@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'utils_Example' do
+  pod 'utils', :path => '../'
+
+  target 'utils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,28 @@
+{
+  "name": "utils",
+  "version": "0.1.0",
+  "summary": "This description is used to generate tags and improve search results",
+  "description": "This description is used to generate tags and improve search results",
+  "homepage": "https://github.com/Xin.Wu/utils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Xin.Wu": "xin.wu@ihuoli.com"
+  },
+  "source": {
+    "git": "https://github.com/xinwutest/util.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "utils/Classes/**/*.{h,m}",
+  "public_header_files": "utils/Classes/**/*.h",
+  "dependencies": {
+    "PPNetworkHelper": [
+
+    ]
+  }
+}
