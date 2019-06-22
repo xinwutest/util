@@ -6,7 +6,7 @@
 //
 
 #import "HTTPHelper.h"
-
+#import <PPNetworkHelper/PPNetworkHelper.h>
 
 @implementation HTTPHelper
 + (__kindof NSURLSessionTask *)GET:(NSString *)URL

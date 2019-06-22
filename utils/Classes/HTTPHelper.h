@@ -6,9 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PPNetworkHelper/PPNetworkHelper.h>
 
 NS_ASSUME_NONNULL_BEGIN
+typedef void(^PPHttpRequestSuccess)(id responseObject);
+typedef void(^PPHttpRequestFailed)(NSError *error);
 
 @interface HTTPHelper : NSObject
 + (__kindof NSURLSessionTask *)GET:(NSString *)URL

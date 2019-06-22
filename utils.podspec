@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 This description is used to
                        DESC
 
-  s.homepage         = 'https://github.com/Xin.Wu/utils'
+  s.homepage         = 'https://github.com/Xin.Wu/utils.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Xin.Wu' => 'xin.wu@ihuoli.com' }
@@ -24,13 +24,13 @@ This description is used to
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '**/**/*.{h,m}'
+  s.source_files = 'utils/Classes/**/**/*.{h,m}','Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h'
   
   # s.resource_bundles = {
   #   'utils' => ['utils/Assets/*.png']
   # }
 
-  s.public_header_files = '**/**/*.h'
+  s.public_header_files = 'utils/Classes/**/**/*.h', 'Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'PPNetworkHelper'
 
