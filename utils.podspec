@@ -30,7 +30,7 @@ This description is used to
     'utils' => ['utils/Assets/*.png']
   }
 
-  s.public_header_files = 'utils/Classes/**/**/*.h', 'Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h', 'Example/Pods/SDWebImage/Core/*.h'
+  s.public_header_files = 'utils/Classes/**/**/*.h', 'Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h'
    s.frameworks = 'UIKit', 'libsqlite3'
    s.library = 'sqlite3'
    s.dependency 'PPNetworkHelper'
