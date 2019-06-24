@@ -26,12 +26,13 @@ This description is used to
 
   s.source_files = 'utils/Classes/**/**/*.{h,m}','Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h'
   
-  # s.resource_bundles = {
-  #   'utils' => ['utils/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'utils' => ['utils/Assets/*.png']
+  }
 
-  s.public_header_files = 'utils/Classes/**/**/*.h', 'Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'utils/Classes/**/**/*.h', 'Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h', 'Example/Pods/SDWebImage/Core/*.h'
+   s.frameworks = 'UIKit', 'libsqlite3'
+   s.library = 'sqlite3'
    s.dependency 'PPNetworkHelper'
-
+   s.dependency 'SDWebImage'
 end

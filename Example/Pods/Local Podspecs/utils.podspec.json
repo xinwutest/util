@@ -2,8 +2,8 @@
   "name": "utils",
   "version": "0.1.0",
   "summary": "This description is used to generate tags and improve search results",
-  "description": "This description is used to generate tags and improve search results",
-  "homepage": "https://github.com/Xin.Wu/utils",
+  "description": "This description is used to",
+  "homepage": "https://github.com/Xin.Wu/utils.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,10 +18,24 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "utils/Classes/**/*.{h,m}",
-  "public_header_files": "utils/Classes/**/*.h",
+  "source_files": [
+    "utils/Classes/**/**/*.{h,m}",
+    "Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h"
+  ],
+  "public_header_files": [
+    "utils/Classes/**/**/*.h",
+    "Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h"
+  ],
+  "frameworks": [
+    "UIKit",
+    "libsqlite3"
+  ],
+  "libraries": "sqlite3",
   "dependencies": {
     "PPNetworkHelper": [
+
+    ],
+    "SDWebImage": [
 
     ]
   }
