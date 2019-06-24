@@ -22,6 +22,11 @@
     "utils/Classes/**/**/*.{h,m}",
     "Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h"
   ],
+  "resource_bundles": {
+    "utils": [
+      "utils/Assets/*.png"
+    ]
+  },
   "public_header_files": [
     "utils/Classes/**/**/*.h",
     "Example/Pods/PPNetworkHelper/PPNetworkHelper/PPNetworkHelper/*.h"
@@ -33,9 +38,6 @@
   "libraries": "sqlite3",
   "dependencies": {
     "PPNetworkHelper": [
-
-    ],
-    "SDWebImage": [
 
     ]
   }

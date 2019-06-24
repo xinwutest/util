@@ -17,12 +17,8 @@ PODS:
   - PPNetworkHelper (0.8.1):
     - AFNetworking (~> 3.2.0)
     - YYCache (~> 1.0.4)
-  - SDWebImage (4.4.3):
-    - SDWebImage/Core (= 4.4.3)
-  - SDWebImage/Core (4.4.3)
   - utils (0.1.0):
     - PPNetworkHelper
-    - SDWebImage
   - YYCache (1.0.4)
 
 DEPENDENCIES:
@@ -32,7 +28,6 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - PPNetworkHelper
-    - SDWebImage
     - YYCache
 
 EXTERNAL SOURCES:
@@ -42,8 +37,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
-  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
-  utils: 705352b96422995d9c0e63c5dbd542357096d5cf
+  utils: f3eef83b1e864e61ba81a1edde78754a42d56d3f
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 0c2dce3ca677da3641c1e733b834419e1275557a

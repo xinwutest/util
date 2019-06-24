@@ -34,5 +34,4 @@ This description is used to
    s.frameworks = 'UIKit', 'libsqlite3'
    s.library = 'sqlite3'
    s.dependency 'PPNetworkHelper'
-   s.dependency 'SDWebImage'
 end
