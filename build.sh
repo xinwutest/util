@@ -1,4 +1,4 @@
-rm -rf uitls-0.1.0
+rm -rf utils-0.1.0
 git add .
 git commit -m "test"
 git push
